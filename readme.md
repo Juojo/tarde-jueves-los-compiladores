@@ -1,4 +1,5 @@
-# Equipo progra2
+# Los Compiladores
+Trabajo practico para la materia "Programacion 2" 1C 2026.
 
 ## Integrantes
 * **Nombre**: Ignacio Opatich
