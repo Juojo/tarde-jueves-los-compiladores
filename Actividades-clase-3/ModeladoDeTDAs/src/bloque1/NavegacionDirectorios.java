@@ -1,5 +1,5 @@
 
-public interface PilaLLamadas {
+public interface NavegacionDirectorios {
     void InicializarPila();
     void Apilar(string nivel);
     void Desapilar();
@@ -8,21 +8,21 @@ public interface PilaLLamadas {
 
 }
 
-public class Directorio implements PilaLLamadas{
-    private static final int MAX=100;
-    private String[] metodo;
+public class Directorio implements NavegacionDirectorios{
+    private static final int MAX=100
+    private String[] cualDirectorio;
     private int cantidad;
     
     @Override
     public void InicializarPila() {
-        metodo=new String[MAX];
+        cualDirectorio=new String[MAX];
         cantidad=0;
     }
 
     @Override
-    public void Apilar(String nombreMetodo){
-        if (cantidad < MAX){
-            metodo[cantidad]=nombreMetodo;
+    public void Apilar(String nivel){
+        if (cantidad<MAX){
+            cualDirectorio[cantidad]=nivel;
             cantidad++;
         }
     }
@@ -36,8 +36,8 @@ public class Directorio implements PilaLLamadas{
     }
 
     @Override
-    public String Tope(){   //En el tope en el momento de la ejecucion de la suma se encuentra la suma. es el ultimo que entro 
-        return metodo[cantidad-1];
+    public String Tope(){   //Este devuelve el directorio en el que te encontras
+        return cualDirectorio[cantidad-1];
     }
 
     @Override
