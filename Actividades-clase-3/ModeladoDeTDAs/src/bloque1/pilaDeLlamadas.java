@@ -1,7 +1,7 @@
 
 public interface PilaLLamadas {
     void InicializarPila();
-    void Apilar(string nivel);
+    void Apilar(String nombreMetodo);
     void Desapilar();
     String Tope();
     boolean PilaVacia();
@@ -29,7 +29,7 @@ public class Directorio implements PilaLLamadas{
 
     @Override
     public void Desapilar(){
-        if (!PilaVacia){
+        if (!PilaVacia()){
             cantidad--;
             
         }

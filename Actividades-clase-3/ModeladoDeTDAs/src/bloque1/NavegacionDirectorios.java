@@ -29,7 +29,7 @@ public class Directorio implements NavegacionDirectorios{
 
     @Override
     public void Desapilar(){
-        if (!PilaVacia){
+        if (!PilaVacia()){
             cantidad--;
             
         }
