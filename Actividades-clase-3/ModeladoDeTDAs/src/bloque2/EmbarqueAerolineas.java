@@ -1,4 +1,5 @@
-import Interface.ColaPrioridadTDA;
+package bloque2;
+import Interfaces.ColaPrioridadTDA;
 import Implementacion.ColaPrioridadEstatica;
 
 public class EmbarqueAerolineas {
