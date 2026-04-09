@@ -1,5 +1,5 @@
 package bloque2;
-import Interface.ColaPrioridadTDA;
+import Interfaces.ColaPrioridadTDA;
 import Implementacion.ColaPrioridadEstatica;
 
 public class ExamenFinal {
