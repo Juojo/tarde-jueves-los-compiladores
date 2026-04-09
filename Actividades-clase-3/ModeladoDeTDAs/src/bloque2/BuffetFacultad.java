@@ -1,4 +1,5 @@
-import Interface.ColaTDA;
+package bloque2;
+import Interfaces.ColaTDA;
 import Implementacion.ColaEstatica;
 
 public class BuffetFacultad {
