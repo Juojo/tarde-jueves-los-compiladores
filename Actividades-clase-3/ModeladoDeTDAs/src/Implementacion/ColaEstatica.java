@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interface.ColaTDA;
+import Interfaces.ColaTDA;
 
 public class ColaEstatica implements ColaTDA {
 
