@@ -1,4 +1,5 @@
-import Interface.ConjuntoStringTDA;
+package bloque3;
+import Interfaces.ConjuntoStringTDA;
 import Implementacion.ConjuntoStringEstatico;
 
 public class InvitadosFiesta {
