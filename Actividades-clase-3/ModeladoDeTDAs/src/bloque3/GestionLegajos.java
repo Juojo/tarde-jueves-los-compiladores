@@ -1,4 +1,5 @@
-import Interface.ConjuntoTDA;
+package bloque3;
+import Interfaces.ConjuntoTDA;
 import Implementacion.ConjuntoEstatico;
 
 public class GestionLegajos {
