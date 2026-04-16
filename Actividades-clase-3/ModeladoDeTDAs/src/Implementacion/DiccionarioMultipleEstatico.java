@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interface.DiccionarioMultipleTDA;
+import Interfaces.DiccionarioMultipleTDA;
 
 public class DiccionarioMultipleEstatico implements DiccionarioMultipleTDA {
 
