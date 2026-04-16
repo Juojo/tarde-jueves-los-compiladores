@@ -1,6 +1,6 @@
 
 import Implementacion.DiccionarioMultipleEstaticoStringAmbos;
-import Interface.DiccionarioMultipleStringPrimeroTDA;
+import Interfaces.DiccionarioMultipleStringPrimeroTDA;
 
 public class IndiceLibroAlgoritmos {
     public static void main(String[] args) {
