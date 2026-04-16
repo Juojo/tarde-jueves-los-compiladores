@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interface.DiccionarioSimpleTDA;
+import Interfaces.DiccionarioSimpleTDA;
 
 public class DiccionarioSimpleEstatico implements DiccionarioSimpleTDA {
 
