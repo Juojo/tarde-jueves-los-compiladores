@@ -1,7 +1,7 @@
 package Implementacion;
 
 
-import Interface.DiccionarioMultipleStringPrimeroTDA;
+import Interfaces.DiccionarioMultipleStringPrimeroTDA;
 
 
 public class DiccionarioMultipleEstaticoStringPrimero implements DiccionarioMultipleStringPrimeroTDA {
