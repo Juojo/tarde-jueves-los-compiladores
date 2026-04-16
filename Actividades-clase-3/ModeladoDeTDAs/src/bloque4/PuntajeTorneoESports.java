@@ -1,5 +1,5 @@
 import Implementacion.DiccionarioSimpleEstaticoString;
-import Interface.DiccionarioSimpleStringTDA;
+import Interfaces.DiccionarioSimpleStringTDA;
 
 public class PuntajeTorneoESports {
     public static void main(String[] args){
