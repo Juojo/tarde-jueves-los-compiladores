@@ -1,4 +1,4 @@
-package Interface;
+package Interfaces;
 
 public interface DiccionarioSimpleStringTDA {
     void InicializarDiccionario();
