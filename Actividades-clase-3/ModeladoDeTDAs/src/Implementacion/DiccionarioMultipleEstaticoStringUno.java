@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interface.DiccionarioMultipleStringUnoTDA;
+import Interfaces.DiccionarioMultipleStringUnoTDA;
 
 
 public class DiccionarioMultipleEstaticoStringUno implements DiccionarioMultipleStringUnoTDA {
