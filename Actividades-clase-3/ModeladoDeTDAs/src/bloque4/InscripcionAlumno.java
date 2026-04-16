@@ -1,5 +1,5 @@
 
-import Interface.DiccionarioMultipleStringUnoTDA;
+import Interfaces.DiccionarioMultipleStringUnoTDA;
 import Implementacion.DiccionarioMultipleEstaticoStringUno;
 
 public class InscripcionAlumno {
