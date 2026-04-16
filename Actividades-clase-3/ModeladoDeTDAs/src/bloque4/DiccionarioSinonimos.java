@@ -1,6 +1,6 @@
 
 import Implementacion.DiccionarioMultipleEstaticoStringAmbos;
-import Interface.DiccionarioMultipleStringAmbosTDA;
+import Interfaces.DiccionarioMultipleStringAmbosTDA;
 
 public class DiccionarioSinonimos {
     public static void main(String[] args) {
