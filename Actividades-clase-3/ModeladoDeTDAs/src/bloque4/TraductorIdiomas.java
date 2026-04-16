@@ -1,4 +1,4 @@
-import Interface.DiccionarioMultipleStringAmbosTDA;
+import Interfaces.DiccionarioMultipleStringAmbosTDA;
 import Implementacion.DiccionarioMultipleEstaticoStringAmbos;
 
 public class TraductorIdiomas {
