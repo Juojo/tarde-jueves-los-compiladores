@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interface.DiccionarioMultipleStringAmbosTDA;
+import Interfaces.DiccionarioMultipleStringAmbosTDA;
 
 
 public class DiccionarioMultipleEstaticoStringAmbos implements DiccionarioMultipleStringAmbosTDA {
