@@ -31,6 +31,30 @@ public static int buscarYValidar(int[] array) {
 // hasta n elementos, dependiendo linealmente de la cola original.
 
 //4)
+public static void procesoMisterioso(int[] arreglo) {
+    int n = arreglo.length; // C1
+    System.out.println("Inicio"); // C2 
+    for (int i = 0; i < n; i++) // N1{ arreglo[i] *= 2; } //C3
+    for (int j = 0; j < n; j++) //N2 { System.out.println(arreglo[j]); } //C4
+}
+//costo total parcial (c1+c2) + (n1*c3) + (n2 * c4)
+//(c1+c2) = k1
+//(n1*c3) + (n2 * c4) = n * (c3 + c4)
+//costo total parcial = k1 + n * (c3 + c4)
+
+//(c3 + c4) = k2
+
+//costo total parcial = k1 + (n*k2)
+
+//Regla del dominante =a medida que n crece el valor de k1 es insignificante.
+
+//costo total parcial = (n * k2)
+
+//Notacion big O (n * k2)  el k2 no afecta a n queda solo n
+
+// RESULTADO = O(n)
+
+
 
 
 //5)
