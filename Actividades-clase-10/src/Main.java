@@ -57,7 +57,19 @@ public static void procesoMisterioso(int[] arreglo) {
 
 
 
-//5)
+//5)EJERCICIO 5: Regla del Producto (Matrices)
+//Analizá la complejidad de recorrer una matriz cuadrada n X n para buscar un número par. Identificá el peor caso.
+//Bloque mas profundo que del if su costo es c1.
+//La multiplicacion del ciclo interno esta definida por n1 que recorre las columnas n veces y multiplica al bloque mas profundo n2*c1
+//Ciclo externo (de filas) envuelve todo el proceso anterior n veces mas
+//Costo total parcial n1 *(n2*c1)
+//Regla dominancia c1 desaparece 
+// Costo total parcial = n1*n2
+// Resultado = O( n2)
+
+
+
+
 
 
 //6)
