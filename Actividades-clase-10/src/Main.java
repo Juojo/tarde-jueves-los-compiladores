@@ -111,7 +111,7 @@ public static void procesoMezclado(int[] datos) {
 public static int fibonacci(int n) {
     if (n <= 1) return n;                               //O(1)
     return fibonacci(n - 1) + fibonacci(n - 2);         //O(N)+O(N) pero cada O(N) hace otra llamada a O(N)
-}                                                       //El costo final es O(N) EXPONENCIAL porque no sabemos que numero va a ingresarse en la primer llamada entonces va a llamarse recursivamente hasta que se rompa el ciclo cundo sea menor o igual a 1. No es lineal porque se suman los dentor de el bucle llama a otro bucle.
+}                                                       //El costo final es O(N) LINEAL porque no sabemos que numero va a ingresarse en la primer llamada entonces va a llamarse recursivamente hasta que se rompa el ciclo cundo sea menor o igual a 1.
 //Sin realizar el cálculo matemático exacto, indicá a qué familia de costo 
 // (jerarquía) pertenece (¿Constante, Lineal o Exponencial?) y justificá basándote en el crecimiento de las llamadas.
 //}
