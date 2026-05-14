@@ -24,19 +24,11 @@ public static int buscarYValidar(int[] array) {
 // implementación estática "PU" es distinta a las demás.
 
 //3)
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+// a) La complejidad temporal es O(n) ya que realiza operaciones constantes como acolar y descolar, pero
+// al estar dentro de un bucle en el cual itera n veces las constantes O(1) se descartan.
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
-}
+//b) La complejidad espacial es O(n) porque utiliza estructuras auxiliares que pueden almacenar
+// hasta n elementos, dependiendo linealmente de la cola original.
 
 //4)
 
@@ -58,7 +50,9 @@ public static void procesoMezclado(int[] datos) {
 }
 
 //7)
-
+//Pertenece a la familia de O(log n) ya que en cada iteración se compara el elemento del medio y luego
+// se descarta la otra mitad del array, de esta manera la cantidad de comparaciones crece
+// respecto al tamaño del array (n, n/2, n/4, n/8, etc...), hasta que quede 1 elemento
 
 //8)
 //EJERCICIO 8: El costo oculto del TDA Conjunto
@@ -85,3 +79,15 @@ public static int fibonacci(int n) {
 //Sin realizar el cálculo matemático exacto, indicá a qué familia de costo 
 // (jerarquía) pertenece (¿Constante, Lineal o Exponencial?) y justificá basándote en el crecimiento de las llamadas.
 //}
+
+
+void main() {
+    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+    // to see how IntelliJ IDEA suggests fixing it.
+    IO.println(String.format("Hello and welcome!"));
+
+    for (int i = 1; i <= 5; i++) {
+        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+        IO.println("i = " + i);
+    }
